@@ -1,8 +1,56 @@
-repos:
-- repo: https://github.com/pre-commit/mirrors-prettier
-  rev: "v3.0.0-alpha.4" # Use the sha or tag you want to point at
-  hooks:
-    - id: prettier
-      files: ".*.(json|js|css)"
+# George Agyemang – Ghanaian in London
+name: George Agyemang
+nickname: Agyemang
+bio: "Ghanaian in London | Product Reviewer | Turning hard-water kettles into viral content since 2025 🇬🇭🇬🇧"
+title: Product Reviewer × AI & No-Code Builder
+location: London, United Kingdom
+email: "your-email@gmail.com"   # ← change this
+phone: ""
+website: https://george-agyemang.github.io
+linkedin: ""                    # add if you have
+github: george-agyemang
+twitter: agyemangghana
 
+# Hero section
+tagline: "I break products so brands can fix them faster"
+profileImage: "/images/profile.jpg"   # ← upload your photo here later
 
+# About section
+about: |
+  Ghanaian living in London’s hard-water jungle. Currently on a 45-day mission to master ChatGPT, Claude, Midjourney, Cursor, Bubble, Zapier and turn everyday products into honest, brand-useful feedback.
+
+  When I’m not descaling kettles, I’m building no-code tools and AI-powered review threads.
+
+# Skills
+skills:
+  - AI & Prompt Engineering
+  - Product Testing & Feedback
+  - Midjourney / Image Generation
+  - Bubble (No-Code)
+  - Cursor.sh / Replit
+  - Zapier Automations
+  - Content & Threads on X
+
+# Projects (these show as cards – I’ve added your first ones)
+projects:
+  - name: "Oust Descaler Deep-Dive"
+    description: "Full review + structured feedback sent directly to SC Johnson"
+    link: "https://x.com/agyemangghana/status/..."   # ← put your thread link later
+    image: "/images/oust.jpg"
+
+  - name: "45-Day AI & No-Code Challenge"
+    description: "Daily progress: ChatGPT → Midjourney → Bubble MVP"
+    link: "https://george-agyemang.github.io"
+    image: "/images/challenge.jpg"
+
+  - name: "Midjourney Ghanaian Cyberpunk Series"
+    description: "Accra markets meet Blade Runner – Week 3 drop"
+    link: ""
+    image: ""
+
+# Show sections
+showExperience: false
+showEducation: false
+showSkills: true
+showProjects: true
+showBlog: false
